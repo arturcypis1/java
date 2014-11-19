@@ -5,8 +5,9 @@ public static int i1,i2,x;
 public static Scanner odczyt;
 public static void main(String[] args) {
 odczyt = new Scanner(System.in);
+System.out.println("Podaj liczbe 1:");
 	i1=odczyt.nextInt();
-	System.out.println("/");
+	 System.out.println("Podaj liczbe 2:");
 	i2=odczyt.nextInt();
 	nwd(i1,i2);
 }
