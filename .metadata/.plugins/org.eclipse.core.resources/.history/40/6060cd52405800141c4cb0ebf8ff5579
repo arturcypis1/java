@@ -1,0 +1,43 @@
+package czesc2;
+import java.util.Scanner;
+public class zad3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		{
+		    int d1,d2;
+		    char znak,odp;
+		    do
+		    {
+		    	System.out.println("Podaj 1 liczbe");
+		    	d1=cin.nextInt();
+		    	System.out.println("Podaj 2 liczbe");
+				d2=cin.nextInt();
+		         cout<<"Podaj znak dzielenia(+,-,*,/,%,^): ";
+		         cin>>znak;
+		         switch (znak)
+		         {
+		         case '+' : cout<<a<<"+"<<b<<"="<<a+b;
+		         break;
+		         case '-' : cout<<a<<"-"<<b<<"="<<a-b;
+		         break;
+		         case '*' : cout<<a<<"*"<<b<<"="<<a*b;
+		         break;
+		         case '/' : cout<<a<<"/"<<b<<"="<<(double)a/b;
+		         break;
+		         case '%' : cout<<a<<"%"<<b<<"="<<a%b;
+		         break;
+		         case '^' : cout<<a<<"^"<<b<<"="<<pow((double)a,b);
+		         break;
+		         }
+		         cout<<'\n';
+		         cout<<"Chcesz liczyc jeszcze raz (t/n)?: ";
+		         cin>>odp;
+		         system("cls");
+		         }while(odp=='t' || odp=='T');
+		         return 0;
+		         }
+	}
+
+}
